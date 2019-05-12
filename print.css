@@ -1,0 +1,18 @@
+@media print{ 
+
+  header, footer {
+  display: none;
+  }
+
+  p a:after { content: " (" attr(href) ") "; }
+  h1 a:after { content: " (" attr(href) ") "; }
+
+  #gif1{
+    display: none;
+  }
+  #gif2{
+    display: none;
+  }
+
+  footer {page-break-after: always;}
+}

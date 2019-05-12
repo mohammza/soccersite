@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inquiry</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="print.css" media="print">
+  <meta charset="utf-8">
+</head>
+<body onbeforeunload="return leavingAlert()">
+	<div id="container">
+		<div id="nav">
+		  <a href="index.html">Home</a>
+		  <a href="history.html">History</a>
+		  <a href="blog.html">Blog</a>
+		  <a href="about.html">Stats</a>
+		  <a class="active" href="inquiry.html">Inquiry</a>
+
+		  	  <!-- <a id="logo" href="//en.wikipedia.org/wiki/File:UEFA_Champions_League_logo_2.svg" title="Fair use of copyrighted material in the context of UEFA Champions League"> -->
+		  	<img alt="UEFA Champions League logo 2.svg" 
+		  		src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/UEFA_Champions_League_logo_2.svg/220px-UEFA_Champions_League_logo_2.svg.png">
+	  <!-- </a> -->
+
+		</div>
+		<p></p>
+		<img id="gif1" src="neymar.gif" title=HADOUKEN">
+		<div id="myForm">
+		   <h2 class="textBox">Contact Me</h2>
+		   <p>Send me a message with any questions, or any blog posts topics.</p>
+		   <p>Required information is marked with an asterisk(*).</p>
+
+		   <form method="post" action="mailto: mohammza@gmail.com" enctype="text/plain">
+		   <label for="First Name">* First Name: </label>
+		   <input type="text" name="myFName" required="required">
+
+		   <label for="Last Name">* Last Name: </label>
+		   <input type="text" name="myLName" required="required">
+
+		   <label for="E-mail">* E-mail: </label>
+		   <input type="email" name="myEmail" required="required">
+
+		   <label for="Comments">* Comments: </label>
+		   <textarea name="Comments" rows="10" cols="45" required="required"></textarea>
+		   <input type="submit" id="mySubmit">
+		   </form>
+		</div>
+		<img id="gif2" src="wrecked.gif" title="Man gets ball to the face">
+	</div>
+</body>
+
+<footer>
+	<span>
+		<small>Email: <a href="mailto:mohammza@gmail.com">mohammza@gmail.com</a></small>
+	</span>
+</footer>
+
+<!-- <script type="text/javascript">
+	alert("This is Home page");
+
+	window.onbeforeunload = confirmExit;
+  	function confirmExit()
+  	{
+   		 return "Do you want to leave this page without saving?";
+  	}
+</script> -->
+</html>

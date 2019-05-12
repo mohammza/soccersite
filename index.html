@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="print.css" media="print">
+  <meta charset="utf-8">
+</head>
+<body onbeforeunload="return leavingAlert()">
+	<div id="nav">
+	  <a class="active" href="index.html">Home</a>
+	  <a href="history.html">History</a>
+	  <a href="blog.html">Blog</a>
+	  <a href="about.html">Stats</a>
+	  <a href="inquiry.html">Inquiry</a>
+
+	  <!-- <a id="logo" href="//en.wikipedia.org/wiki/File:UEFA_Champions_League_logo_2.svg" title="Fair use of copyrighted material in the context of UEFA Champions League"> -->
+		  	<img alt="UEFA Champions League logo 2.svg" 
+		  		src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/UEFA_Champions_League_logo_2.svg/220px-UEFA_Champions_League_logo_2.svg.png">
+	  <!-- </a> -->
+	</div>
+
+	<div id="container">
+		<div id="personal">
+			<img src="cpl.jpg" alt="cpl"/>	
+			<h1 id="blackbox"><a id="champion" href="https://www.youtube.com/watch?v=04854XqcfCY" title="VIDEO: WE ARE THE CHAMPIONS" target="_blank">Welcome to the home of Champions</a></h1>
+		</div>
+		<h2>What is this website?</h2>
+		<p style="width: 90%; text-align: center;">
+			Growing up I have always had a passion for soccer, it was the one thing that I truly had a burning passion. So it only made sense that I explore that passion and make a website for myself where I can express my opinions about the current events happen in soccer around the world. This website is a sports site that is dedicated to the UEFA Champions League. But more importantly it is a space where where I can express my opinions and views on certain matters. Feel free to go directly to <a href="blog.html">my blog page</a>.
+		</p>
+		<p style="width: 90%; text-align: center;">
+			If you're not into soccer, I would still recommend going through the site and enjoying the content, hopefully it'll inspire you to try out soccer and get to know what people describe as <strong>"the beautiful game"</strong>.
+		</p>
+	</div>
+</body>
+<footer>
+	<span>
+		<small>Follow me on Twitter: <a href="https://twitter.com/ahammlegend" target="_blank">@ahammlegend</a></small>
+	</span>
+</footer>
+
+<script type="text/javascript">
+	alert("You are entering the homepage... get ready to have your mind blown");
+
+	window.onbeforeunload = confirmExit;
+  	function confirmExit()
+  	{
+   		 return "Do you want to leave this page without saving?";
+  	}
+</script>
+</html>
